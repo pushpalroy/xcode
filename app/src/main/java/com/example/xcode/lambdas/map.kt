@@ -9,10 +9,10 @@ fun main() {
     val list = (1..100).toList()
 
     val doubled = list.map { item -> item * 2 }
-
-    val _doubled = list.map { it * 2 }
-
     println(doubled)
+
+    val doubled1 = list.map { it * 2 }
+    println(doubled1)
 
     val average = list.average()
 
@@ -31,12 +31,11 @@ fun main() {
     )
 
     val notFlattened = nestedList.map { it.sortedDescending() }
-
     println(notFlattened)
 
     val flattened = nestedList.flatMap { it.sortedDescending() }
+    println(flattened)
 
     val flattened2 = nestedList.map { it.sortedDescending() }.flatten()
-
-    println(flattened)
+    println(flattened2)
 }

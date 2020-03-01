@@ -1,4 +1,4 @@
-package com.example.xcode.lambdas
+package com.example.xcode.functional
 
 fun main() {
   val data = listOf(

@@ -1,6 +1,5 @@
-package com.example.xcode.lambdas
+package com.example.xcode.functional
 
-import android.util.Log
 import java.io.File
 import java.util.Locale
 
